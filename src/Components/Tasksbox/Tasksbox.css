@@ -1,0 +1,7 @@
+.container{
+    border: 8px whitesmoke solid;
+    height: 50em;
+    width: 50%;
+    margin: 25px auto;
+    border-radius: 8px;
+}

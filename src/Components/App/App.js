@@ -1,13 +1,14 @@
-import './App.css';
 import React from 'react';
+import Tasksbox from '../Tasksbox/Tasksbox';
+import './App.css';
 
 class App extends React.Component{
 
   render(){
     return(
-      <>
-        <h1>Hello React</h1>
-      </>
+      <div>
+        <Tasksbox></Tasksbox>
+      </div>
     )
   }
 }
