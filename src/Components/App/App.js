@@ -7,7 +7,7 @@ class App extends React.Component{
   render(){
     return(
       <div>
-        <Tasksbox></Tasksbox>
+        <Tasksbox/>
       </div>
     )
   }

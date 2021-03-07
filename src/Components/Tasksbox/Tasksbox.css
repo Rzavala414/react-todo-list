@@ -5,3 +5,8 @@
     margin: 25px auto;
     border-radius: 8px;
 }
+input{
+    height: 25px;
+    width: 250px;
+    margin: 45px 290px 0px 290px;
+}
