@@ -1,0 +1,16 @@
+.task{
+    background: forestgreen;
+    height: 3rem;
+    width: 75%;
+    margin: 1.5rem auto;
+    
+}
+
+p{
+    display: inline-block;
+}
+
+span:hover{
+    cursor: pointer;
+    
+}
