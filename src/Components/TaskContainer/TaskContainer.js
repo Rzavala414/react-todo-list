@@ -9,8 +9,11 @@ export default class TaskContainer extends React.Component{
         return(
             <div className="task-container">
                {
-                 this.props.tasks && this.props.tasks.map((task, id) => {
-                      return <Task key={id} task={task}/>
+                this.props.tasks.map((task, id) => {
+                     
+                      return <Task key={id}
+                                   task={task}
+                                   onRemove={this.props.onRemove}/>
                   })
                 }
             </div>

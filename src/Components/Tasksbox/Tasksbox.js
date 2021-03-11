@@ -7,7 +7,7 @@ export default class Tasksbox extends React.Component{
     constructor(props){
         super(props)
         this.state = {
-            task: 'Enter Task'
+            task: ''
         }
 
         this.onClick = this.onClick.bind(this);
@@ -26,10 +26,11 @@ export default class Tasksbox extends React.Component{
     render(){
         return(
             <div className="container">
-                <input type='text' placeholder={this.state.task} onChange={this.onChange} ></input>
+                <input type='text' placeholder='Enter Task' onChange={this.onChange} ></input>
                 <button onClick={this.onClick}>Add Task</button>
                 
-                <TaskContainer tasks={this.props.tasks}/>
+                <TaskContainer tasks={this.props.tasks} 
+                               onRemove={this.props.onRemove}/>
             </div>
         )
     }
